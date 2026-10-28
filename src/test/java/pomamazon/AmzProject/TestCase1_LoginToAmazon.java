@@ -23,7 +23,7 @@ public class TestCase1_LoginToAmazon extends BaseTest
 		
 		loginpage.enterusername("sowmyashop01@gmail.com");
 		loginpage.clickOnContinue();
-																																																				loginpage.enterpassword("Test@123");
+																																																				loginpage.enterpassword("Zoho@123");
 		loginpage.clickOnSigninbutton();
 		assertThat(page).hasTitle("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"); //1st assert confirmation
 		
